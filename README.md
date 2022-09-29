@@ -262,7 +262,7 @@ Ya podemos usar nuestros iconos en nuestros graficos.
 ## Creando visualizacion en grafico de lineas
 Modificamos nuestro grafico incial y ampliaremos el grafico, de tal manera que se aprecien la linea de precio y las medias moviles.
 
-[![N|Solid](https://github.com/josueversace/PIDashboardcrypto/blob/main/Images/grafico%20final.png?raw=true)]
+[![N|Solid](https://github.com/josueversace/PIDashboardcrypto/blob/main/Images/BITCOIN.png?raw=true)]
 
 Añadimos a nuestro grafico el precio y Maximos y Minimos de cierre, ademas del volumen.
 

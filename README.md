@@ -53,7 +53,7 @@ GET /markets/{market_name}/candles?resolution={resolution}&start_time={start_tim
 ## IMPORTANDO DATOS 
 
     Consumimos datos de la siguiente manera: 
-[![N|Solid](https://github.com/josueversace/PI03-Analytics/blob/main/Images/import.png?raw=true)]
+[![N|Solid](https://github.com/josueversace/PIDashboardcrypto/blob/main/Images/import.png?raw=true)]
 
     Una vez importadas los datos, apilamos todo en uno con el nombre de 'Crypto Price'
 
@@ -224,7 +224,7 @@ Esta funcion nos permite crear una tabla de fechas especificas. Ej. Solo desde 1
 ## CREANDO VISUALIZACIONES
 Relacionamos nuestras tablas por la fecha, y con la tabla Logo relacionamos por SYMBOL.
 
-[![N|Solid](https://github.com/josueversace/PI03-Analytics/blob/main/Images/relacional.png?raw=true)]
+[![N|Solid](https://github.com/josueversace/PIDashboardcrypto/blob/main/Images/relacional.png?raw=true)]
 
 
 Usando 'grafico de lineas' y configurandola en 'eje x: Date[Dates]' y 'eje y: Cryto Price[result.close]', filtros de tiempo.
@@ -238,10 +238,10 @@ Moving Average FormulaClose Price(nMA) =
 n indica la cantidad de periodo que se quiere evaluar.
 
 Se añaden filtros por fecha y por simbolo, teniendo la primera impresion:
-[![N|Solid](https://github.com/josueversace/PI03-Analytics/blob/main/Images/grafico%20inicial.png?raw=true)]
+[![N|Solid](https://github.com/josueversace/PIDashboardcrypto/blob/main/Images/grafico%20inicial.png?raw=true)]
 
 Cada 4 hrs se actualizará nustros datos
-[![N|Solid](https://github.com/josueversace/PI03-Analytics/blob/main/Images/importar%20datos.png?raw=true)]
+[![N|Solid](https://github.com/josueversace/PIDashboardcrypto/blob/main/Images/importar%20datos.png?raw=true)]
 
 Para los iconos:
 - Todos los iconos se ubican en una carpeta que luego importaremos con el programa y seleccionando 'Carpeta'
@@ -262,7 +262,7 @@ Ya podemos usar nuestros iconos en nuestros graficos.
 ## Creando visualizacion en grafico de lineas
 Modificamos nuestro grafico incial y ampliaremos el grafico, de tal manera que se aprecien la linea de precio y las medias moviles.
 
-[![N|Solid](https://github.com/josueversace/PI03-Analytics/blob/main/Images/grafico%20final.png?raw=true)]
+[![N|Solid](https://github.com/josueversace/PIDashboardcrypto/blob/main/Images/grafico%20final.png?raw=true)]
 
 Añadimos a nuestro grafico el precio y Maximos y Minimos de cierre, ademas del volumen.
 
@@ -276,7 +276,7 @@ Con esta columna calculamos el equivalente a 1 dolar.
 Creamos una tabla 'Exchange' de una sola celda que incluira el monto que necesitamos convertir.
 Usando la herramienta externa 'Tabular editor', damos configuracion a nuestro filtro para que calcule la cantidad criptomonedas obtendremos.
 
-[![N|Solid](https://github.com/josueversace/PI03-Analytics/blob/main/Images/editor.png?raw=true)]
+[![N|Solid](https://github.com/josueversace/PIDashboardcrypto/blob/main/Images/editor.png?raw=true)]
 
 En nuestro ejemplo usamos $100.
 
@@ -293,7 +293,7 @@ Esta medida nos sirve para ver la variacion de precio y los etiquetaremos. Si es
 
 Ademas añadimos micrograficos para mejorar la presentacion y la calculadora previamente esstablecida
 
-[![N|Solid](https://github.com/josueversace/PI03-Analytics/blob/main/Images/DASHBOARD%20FINAL.png?raw=true)]
+[![N|Solid](https://github.com/josueversace/PIDashboardcrypto/blob/main/Images/DASHBOARD%20FINAL.png?raw=true)]
 
 ## Conclusiones
 - Graficamente: se observa que la media movil de 50, está por debajo de la media de 200, esto indica que en todas las criptos, la tendencia bajista aun está presente. 

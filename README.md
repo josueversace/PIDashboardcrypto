@@ -7,6 +7,10 @@
 BY JOSUE HUAMAN
 [![N|Solid](https://icons.iconarchive.com/icons/limav/flat-gradient-social/24/Linkedin-icon.png)](https://www.linkedin.com/in/imjosue/) [![N|Solid](https://icons.iconarchive.com/icons/artcore-illustrations/artcore-4/24/github-icon.png)](https://github.com/josueversace/) 
 
+[Version Online](https://app.powerbi.com/view?r=eyJrIjoiZGYwNWQzZjgtYjc5YS00M2I1LTg2NzItZjI3ZWY0YzljYzU4IiwidCI6Ijk2NjIzM2UzLTBiNzUtNGM3Ny04NzdhLWQ5YjcwYTY5ZWEwMSIsImMiOjR9 "Version online").
+ 
+[DashBoard Pdf](https://drive.google.com/file/d/1zm_yLrOyUFvcFA6lK5bIpVxURvh3kWoe/view?usp=sharing "Version PDF").
+
 ## Introducción
 
 En este proyecto vamos a construir un DashBoard con el top 10 de criptomonedas comercializadas en FTX. Ademas mostraremos un resumen de cada instrumento seleccionado: 
